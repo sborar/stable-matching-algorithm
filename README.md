@@ -34,9 +34,11 @@ Problem definition: Implement an algorithm that computes a stable
   write s^{-1} for the inverse permutation of s.
   
   Algorithm:
+  
   Create a queue for each applicants prefrences.
   Create a applicant queue.
   Go through applicant queue, pop the first applicant.
   Find the preference queue of the applicant and pop the first preference.
+  
   If another applicant was already selected for the position then we check which applicant is preffered by the company, if not we assign this applicant to the company position.
   We follow this approach till the applicant queue is empty to get a stable matching.
