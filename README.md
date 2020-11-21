@@ -5,7 +5,7 @@ Problem definition: Implement an algorithm that computes a stable
   matching between n applicants and n positions. 
   
   Each applicant
-  i=0,1,.....,n-1 has preferences for each position j=0,1,....,n-1$,
+  i=0,1,.....,n-1 has preferences for each position j=0,1,....,n-1,
   and vice versa. These preferences are given as input in two n^2-element
   arrays `a_pref` and `b_pref` so that applicant i=0,1,....,n-1 prefers
   the n available positions in order
