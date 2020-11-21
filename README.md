@@ -43,4 +43,4 @@ Problem definition: Implement an algorithm that computes a stable
   If another applicant was already selected for the position then we check which applicant is preffered by the company, if not we assign this applicant to the company position.
   We follow this approach till the applicant queue is empty to get a stable matching.
   
-Just run main.cpp and change the arguments in main to get stable matching for your own example.
+Instrctuions: Just run main.cpp and change the arguments in main to get stable matching for your own example.
